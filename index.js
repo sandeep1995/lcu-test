@@ -21,8 +21,6 @@ setInterval(async () => {
         let path = await lcuConnector.getInstallPath();
         console.log('League path' + path);
 
-        let sessionInfo = await lcuConnector.getSessionInfo();
-        console.log('Session Info ' + JSON.stringify(sessionInfo));
     } catch (err) {
         console.error('Error ' + err);
     }
