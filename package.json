@@ -1,0 +1,15 @@
+{
+  "name": "lcu-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solomid/blitz-lcu-connector": "github:theblitzapp/blitz-lcu-connector#error-reporting"
+  }
+}
