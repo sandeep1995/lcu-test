@@ -16,12 +16,6 @@ lcuConnector.on('sessionUpdate', data => {
     console.log('Session Update ' + data);
 });
 
-setInterval(async () => {
-    try {
-        let path = await lcuConnector.getInstallPath();
-        console.log('League path ' + path);
-
-    } catch (err) {
-        console.error(err.toString());
-    }
-}, 1000);
+lcuConnector.on('reset', () => {
+    console.log('Reset fired');
+});

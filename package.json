@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@solomid/blitz-lcu-connector": "github:theblitzapp/blitz-lcu-connector#error-reporting"
+    "@solomid/blitz-lcu-connector": "github:theblitzapp/blitz-lcu-connector"
   }
 }
